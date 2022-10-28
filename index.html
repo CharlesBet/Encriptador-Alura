@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Encriptador Alura</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="imagenes/logotipo.svg">
+        <link rel="stylesheet" href="reset.css" media="screen" />
+        <link rel="stylesheet" href="styles.css" media="screen" />
+        <script defer src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+        <div class="encriptador">
+
+            <div class="logotipo">
+                <img class="logotipoAlura" src="imagenes/logotipo.svg" alt="Logo de Alura">
+            </div>
+
+            <div class="textoIzquierdo">
+                <textarea class="cuadroTexto" placeholder="Ingresa tu texto" id="cuadroTexto" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="textoDerecho">
+                <img class="imagenDerecha" src="imagenes/persona.svg" alt="Dibujo de Persona">
+                <h2 class="textoDerecha">Ningún mensaje fue encontrado</h2>
+                <textarea class="cuadroTextoAreaDerecho" cols="30" rows="10">Ingrese el texto que desees encriptar o desencriptar.</textarea>
+                <button class="copiar" type="button" onclick="copiar()">¡Copiar!</button>
+            </div>
+            <div class="leftButton">
+                <p>⚠Solo utilziar letras minúsculas y sin acentos⚠</p>
+                <button type="button" class="botonEncriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" class="botonDesencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <footer>
+            <p>Encriptador ONE - Carlos Betancourt 📛 2022</p>
+        </footer>
+
+</body>
+</html>
