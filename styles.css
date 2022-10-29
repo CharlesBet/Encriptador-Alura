@@ -163,7 +163,7 @@ footer {
 
 @media screen and (max-width: 650px) {
     .encriptador {
-        margin: auto;
+        margin: auto;3
         width: 80%;
         padding: 5px;
     }
@@ -193,7 +193,7 @@ footer {
         width: 39%;
     }
 
-    #.botonDesencriptar {
+    .botonDesencriptar {
         display: inline;
         width: 39%;
         text-align: center;
